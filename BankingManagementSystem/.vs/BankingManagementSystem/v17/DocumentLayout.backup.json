@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SOFT_EN_BankingMS\\BankingManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6359BE98-8D4D-4B04-874F-E31A4C84C22E}|BankingManagementSystem\\BankingManagementSystem.csproj|d:\\soft_en_bankingms\\bankingmanagementsystem\\bankingmanagementsystem\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6359BE98-8D4D-4B04-874F-E31A4C84C22E}|BankingManagementSystem\\BankingManagementSystem.csproj|solutionrelative:bankingmanagementsystem\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6359BE98-8D4D-4B04-874F-E31A4C84C22E}|BankingManagementSystem\\BankingManagementSystem.csproj|d:\\soft_en_bankingms\\bankingmanagementsystem\\bankingmanagementsystem\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6359BE98-8D4D-4B04-874F-E31A4C84C22E}|BankingManagementSystem\\BankingManagementSystem.csproj|solutionrelative:bankingmanagementsystem\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6359BE98-8D4D-4B04-874F-E31A4C84C22E}|BankingManagementSystem\\BankingManagementSystem.csproj|d:\\soft_en_bankingms\\bankingmanagementsystem\\bankingmanagementsystem\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6359BE98-8D4D-4B04-874F-E31A4C84C22E}|BankingManagementSystem\\BankingManagementSystem.csproj|solutionrelative:bankingmanagementsystem\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6359BE98-8D4D-4B04-874F-E31A4C84C22E}|BankingManagementSystem\\BankingManagementSystem.csproj|d:\\soft_en_bankingms\\bankingmanagementsystem\\bankingmanagementsystem\\views\\transaction\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6359BE98-8D4D-4B04-874F-E31A4C84C22E}|BankingManagementSystem\\BankingManagementSystem.csproj|solutionrelative:bankingmanagementsystem\\views\\transaction\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SOFT_EN_BankingMS\\BankingManagementSystem\\BankingManagementSystem\\Views\\Transaction\\Index.cshtml",
+              "RelativeDocumentMoniker": "BankingManagementSystem\\Views\\Transaction\\Index.cshtml",
+              "ToolTip": "D:\\SOFT_EN_BankingMS\\BankingManagementSystem\\BankingManagementSystem\\Views\\Transaction\\Index.cshtml",
+              "RelativeToolTip": "BankingManagementSystem\\Views\\Transaction\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T18:16:08.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\SOFT_EN_BankingMS\\BankingManagementSystem\\BankingManagementSystem\\Views\\Transaction\\Create.cshtml",
+              "RelativeDocumentMoniker": "BankingManagementSystem\\Views\\Transaction\\Create.cshtml",
+              "ToolTip": "D:\\SOFT_EN_BankingMS\\BankingManagementSystem\\BankingManagementSystem\\Views\\Transaction\\Create.cshtml",
+              "RelativeToolTip": "BankingManagementSystem\\Views\\Transaction\\Create.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T18:13:54.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\SOFT_EN_BankingMS\\BankingManagementSystem\\BankingManagementSystem\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "BankingManagementSystem\\Models\\Transaction.cs",
+              "ToolTip": "D:\\SOFT_EN_BankingMS\\BankingManagementSystem\\BankingManagementSystem\\Models\\Transaction.cs",
+              "RelativeToolTip": "BankingManagementSystem\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T18:00:41.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "D:\\SOFT_EN_BankingMS\\BankingManagementSystem\\BankingManagementSystem\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "BankingManagementSystem\\Controllers\\TransactionController.cs",
+              "ToolTip": "D:\\SOFT_EN_BankingMS\\BankingManagementSystem\\BankingManagementSystem\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "BankingManagementSystem\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA/wBYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:56:24.652Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
