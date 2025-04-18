@@ -101,7 +101,7 @@ namespace BankingManagementSystem.Controllers
             {
                 return NotFound();
             }
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "Id", "Id", transaction.CustomerId);
+            ViewData["CustomerId"] = new SelectList(_context.Customers, "Id", "AccountHolderName", transaction.CustomerId);
             return View(transaction);
         }
 
@@ -137,7 +137,7 @@ namespace BankingManagementSystem.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "Id", "Id", transaction.CustomerId);
+            ViewData["CustomerId"] = new SelectList(_context.Customers, "Id", "AccountHolderName", transaction.CustomerId);
             return View(transaction);
         }
 

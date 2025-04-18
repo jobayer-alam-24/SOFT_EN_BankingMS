@@ -54,10 +54,11 @@ namespace BankingManagementSystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,AccountHolderName,AccountNumber,AccountType,AccountStatus,InitialBalance,CurrentBalance")] Customer customer)
+        public async Task<IActionResult> Create([Bind("Id,AccountHolderName,AccountNumber,AccountType,AccountStatus,InitialBalance")] Customer customer)
         {
             if (ModelState.IsValid)
             {
+                customer.CurrentBalance = customer.InitialBalance;
                 _context.Add(customer);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -86,7 +87,7 @@ namespace BankingManagementSystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,AccountHolderName,AccountNumber,AccountType,AccountStatus,InitialBalance,CurrentBalance")] Customer customer)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,AccountHolderName,AccountNumber,AccountType,AccountStatus,InitialBalance")] Customer customer)
         {
             if (id != customer.Id)
             {
@@ -97,6 +98,7 @@ namespace BankingManagementSystem.Controllers
             {
                 try
                 {
+                    customer.CurrentBalance = customer.InitialBalance;
                     _context.Update(customer);
                     await _context.SaveChangesAsync();
                 }

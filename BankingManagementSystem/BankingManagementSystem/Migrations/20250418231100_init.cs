@@ -56,7 +56,7 @@ namespace BankingManagementSystem.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    AccountHolderName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    AccountHolderName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     AccountNumber = table.Column<long>(type: "bigint", nullable: false),
                     AccountType = table.Column<int>(type: "int", nullable: false),
                     AccountStatus = table.Column<int>(type: "int", nullable: false),
