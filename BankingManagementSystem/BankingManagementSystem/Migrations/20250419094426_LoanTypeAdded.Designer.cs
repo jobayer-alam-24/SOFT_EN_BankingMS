@@ -4,6 +4,7 @@ using BankingManagementSystem.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BankingManagementSystem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250419094426_LoanTypeAdded")]
+    partial class LoanTypeAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -52,50 +55,6 @@ namespace BankingManagementSystem.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Customers");
-                });
-
-            modelBuilder.Entity("BankingManagementSystem.Models.Loan", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("AppliedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("ApprovedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("CustomerId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("EndDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<float>("InterestRate")
-                        .HasColumnType("real");
-
-                    b.Property<decimal>("LoanAmount")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("LoanNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("LoanTypeId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("TotalMonth")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CustomerId");
-
-                    b.HasIndex("LoanTypeId");
-
-                    b.ToTable("Loans");
                 });
 
             modelBuilder.Entity("BankingManagementSystem.Models.LoanType", b =>
@@ -348,25 +307,6 @@ namespace BankingManagementSystem.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
-                });
-
-            modelBuilder.Entity("BankingManagementSystem.Models.Loan", b =>
-                {
-                    b.HasOne("BankingManagementSystem.Models.Customer", "Customer")
-                        .WithMany()
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BankingManagementSystem.Models.LoanType", "LoanType")
-                        .WithMany()
-                        .HasForeignKey("LoanTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Customer");
-
-                    b.Navigation("LoanType");
                 });
 
             modelBuilder.Entity("BankingManagementSystem.Models.Transaction", b =>

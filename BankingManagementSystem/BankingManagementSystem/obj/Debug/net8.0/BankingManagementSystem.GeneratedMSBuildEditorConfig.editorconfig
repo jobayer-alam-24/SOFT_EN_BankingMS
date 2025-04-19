@@ -60,6 +60,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/SOFT_EN_BankingMS/BankingManagementSystem/BankingManagementSystem/Views/LoanType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOFT_EN_BankingMS/BankingManagementSystem/BankingManagementSystem/Views/LoanType/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOFT_EN_BankingMS/BankingManagementSystem/BankingManagementSystem/Views/LoanType/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOFT_EN_BankingMS/BankingManagementSystem/BankingManagementSystem/Views/LoanType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOFT_EN_BankingMS/BankingManagementSystem/BankingManagementSystem/Views/LoanType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOFT_EN_BankingMS/BankingManagementSystem/BankingManagementSystem/Views/Loan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOFT_EN_BankingMS/BankingManagementSystem/BankingManagementSystem/Views/Loan/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOFT_EN_BankingMS/BankingManagementSystem/BankingManagementSystem/Views/Loan/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOFT_EN_BankingMS/BankingManagementSystem/BankingManagementSystem/Views/Loan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SOFT_EN_BankingMS/BankingManagementSystem/BankingManagementSystem/Views/Loan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/SOFT_EN_BankingMS/BankingManagementSystem/BankingManagementSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
