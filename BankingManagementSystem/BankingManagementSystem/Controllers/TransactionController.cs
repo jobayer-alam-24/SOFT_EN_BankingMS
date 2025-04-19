@@ -166,8 +166,24 @@ namespace BankingManagementSystem.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var transaction = await _context.Transactions.FindAsync(id);
+            var customer = await _context.Customers.FindAsync(transaction.CustomerId);
             if (transaction != null)
             {
+                if(customer != null)
+                {
+                    if (transaction.WidthdrawBalance > 0)
+                    {
+                        customer.CurrentBalance += (decimal)transaction.WidthdrawBalance;
+                        _context.Customers.Update(customer);
+                        await _context.SaveChangesAsync();
+                    }
+                    if (transaction.DepositBalance > 0)
+                    {
+                        customer.CurrentBalance -= (decimal)transaction.DepositBalance;
+                        _context.Customers.Update(customer);
+                        await _context.SaveChangesAsync();
+                    }
+                }
                 _context.Transactions.Remove(transaction);
             }
 
